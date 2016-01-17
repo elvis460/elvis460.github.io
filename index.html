@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<title>A Page About Elvis</title>
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+	<link href="public/examples/fixed-positioning.css" rel="stylesheet" type="text/css" />
+	<link href="public/examples/main.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<div id="bg1" data-0="background-position:0px 0px;" data-end="background-position:-500px -10000px;"></div>
+	<div id="bg2" data-0="background-position:0px 0px;" data-end="background-position:-500px -8000px;"></div>
+	<div id="bg3" data-0="background-position:0px 0px;" data-end="background-position:-500px -6000px;"></div>
+
+	<div id="progress" data-0="width:0%;background:hsl(200, 100%, 50%);" data-end="width:100%;background:hsl(920, 100%, 50%);"></div>
+
+	<div id="intro" data-0="opacity:1;top:3%;transform:rotate(0deg);transform-origin:0 0;" data-500="opacity:0;top:-10%;transform:rotate(-90deg);"style="color:rgb(245, 247, 250);">
+		<img src="public/examples/images/elvis.jpg" style="height:300px;margin-top:20px;" class="img-circle">
+		<h3 style="color:rgb(245, 247, 250);">姓名：徐銘村</h3>
+		<h3 style="color:rgb(245, 247, 250);">綽號：村民</h3>
+		<h3 style="color:rgb(245, 247, 250);">生日：1995/08/06</h3>
+		<h3 style="color:rgb(245, 247, 250);">學歷：台灣科技大學資訊工程系</h3>
+		<p class="arrows">▼&nbsp;▼&nbsp;▼</p>
+		<h2>滾動滑鼠滾輪</h2>
+	</div>
+
+	<div id="properties" data-500="transform:scale(0) rotate(0deg);" data-1000="transform:scale(1) rotate(1440deg);opacity:1;" data-1600="" data-1700="transform:scale(5) rotate(3240deg);opacity:0;">
+		<h2 style="color:#732626;">來自山城苗栗的小伙子</h2>
+		<h3 style="color:#ff3300;">慢跑是我的興趣</h3>
+		<h3 style="color:#ff3300;">積極是我的座右銘</h3>
+		<h3 style="color:#ff3300;">富有團隊合作的精神</h3>
+		<h3 style="color:#ff3300;">樂於嘗試新事物，不斷學習新知識</h3>
+		<h3 style="color:#ff3300;">喜歡用程式去完成一些生活中有趣的應用</h3>
+		<h3 style="color:#ff3300;">夢想成為一名被依賴的工程師，讓這個世界缺我不可</h3>
+	</div>
+
+	<div id="transform" data-1700="top:100%;" data-2200="top:0%;" data-3000="display:block;" data-3700="top:-100%;display:none;">
+		<h2 style="color:rgb(43, 172, 181);">我的經歷</h2>
+		<h3 style="color:rgb(245, 236, 217);">PlayPlus  實習工程師   2015 / 10 - 2016 / 4</h3>
+		<h3 style="color:rgb(245, 236, 217);">臺科竹友會  副會長   2014 / 9 - 2015 / 6</h3>
+	</div>
+
+	<div id="easing_wrapper" data-0="display:none;" data-3900="display:block;" data-4900="background:rgba(0, 0, 0, 0);color[swing]:rgb(0,0,0);" data-5900="background:rgba(0,0,0,1);color:rgb(255,255,255);" data-10000="top:0%;" data-12000="top:-100%;">
+		<div id="easing" data-3900="left:100%" data-4600="left:25%;">
+			<h2>簡單的自我介紹就到這邊</h2>
+			<h2>接下來....</h2>
+			<h2>看看我的專業技能</h2>
+			<h2 data-5900="opacity:0;font-size:100%;" data-6500="opacity:1;font-size:150%;">專長 ：Rails 網頁前後端設計，並有多項專案開發經驗</h2>
+		</div>
+
+		<div class="drop" data-6500="left:15%;bottom:100%;" data-9500="bottom:0%;">HTML</div>
+		<div class="drop" data-6500="left:25%;bottom[quadratic]:100%;" data-9500="bottom:0%;">CSS</div>
+		<div class="drop" data-6500="left:35%;bottom[cubic]:100%;" data-9500="bottom:0%;">JS</div>
+		<div class="drop" data-6500="left:45%;bottom[swing]:100%;" data-9500="bottom:0%;">Ruby</div>
+<!-- 		<div class="drop" data-6500="left:55%;bottom[WTF]:100%;" data-9500="bottom:0%;">Rails</div>
+ -->	<div class="drop" data-6500="left:55%;bottom[inverted]:100%;" data-9500="bottom:0%;">AWS</div>
+		<div class="drop" data-6500="left:65%;bottom[bounce]:100%;" data-9500="bottom:0%;">金流、第三方服務串接</div>
+	</div>
+
+	<div id="download" data-10000="top[cubic]:100%;border-radius[cubic]:0em;background:rgb(0,50,100);border-width:0px;" data-12000="top:10%;border-radius:2em;background:rgb(190,230,255);border-width:10px;">
+		<h2 style="margin-top:30px">Connect me</h2>
+		<h3>有任何程式或其他學術性的交流與指教都非常歡迎與我聯絡</h3>
+		<h3>我的信箱<strong> <a href="mailto:elvis4600@gmail.com">elvis4600@gmail.com</a></h3> </strong>
+	
+		<h3>我的<strong> <a href="https://www.facebook.com/profile.php?id=100002349957840">Facebook</a></strong></h3>
+		<h3>也歡迎參觀我的<strong> <a href="https://github.com/elvis460">GitHub</a> </strong></h3>
+		
+	</div>
+
+	<div id="scrollbar" data-0="top:0%;margin-top:2px;" data-end="top:100%;margin-top:-52px;"></div>
+
+	<script type="text/javascript" src="public/dist/skrollr.min.js"></script>
+
+	<!--[if lt IE 9]>
+	<script type="text/javascript" src="../skrollr-ie/dist/skrollr.ie.min.js"></script>
+	<![endif]-->
+
+	<script type="text/javascript">
+	var s = skrollr.init({
+		edgeStrategy: 'set',
+		easing: {
+			WTF: Math.random,
+			inverted: function(p) {
+				return 1-p;
+			}
+		}
+	});
+	</script>
+</body>
+
+</html>
