@@ -1,109 +1,238 @@
-
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-	<title>Villager Profile Page</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Villager Profile Page</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="stylesheet" href="public/font-awesome/css/font-awesome.min.css">
-	<link href="public/examples/fixed-positioning.css" rel="stylesheet" type="text/css" />
-	<link href="public/examples/main.css" rel="stylesheet" type="text/css" />
+  <link href="stylesheets/main.css" rel="stylesheet" type="text/css" />
+  <link href="stylesheets/phone_main.css" rel="stylesheet" type="text/css" />
+   <link href="stylesheets/hex.css" rel="stylesheet" type="text/css" />
+  <script src="javascripts/jquery-3.1.1.min.js"></script>
+  <script src="javascripts/main.js"></script>
+  
+
 </head>
-
 <body>
-	<div id="bg1" data-0="background-position:0px 0px;" data-end="background-position:-500px -10000px;"></div>
-	<div id="bg2" data-0="background-position:0px 0px;" data-end="background-position:-500px -8000px;"></div>
-	<div id="bg3" data-0="background-position:0px 0px;" data-end="background-position:-500px -6000px;"></div>
-
-	<div id="progress" data-0="width:0%;background:hsl(200, 100%, 50%);" data-end="width:100%;background:hsl(920, 100%, 50%);"></div>
-
-	<div id="intro" data-0="opacity:1;top:3%;transform:rotate(0deg);transform-origin:0 0;" data-500="opacity:0;top:-10%;transform:rotate(-90deg);"style="color:rgb(245, 247, 250);">
-		<img src="public/examples/images/villager.jpg" style="height:300px;margin-top:20px;" class="img-circle">
-		<h1 style="color:rgb(245, 247, 250);margin-top: 3%">徐銘村<div style="color:rgb(245, 247, 250);font-size: 15px;margin-top: 1%;">村民 | Villager</div></h1>
-		<h3 style="color:rgb(245, 247, 250);"><i class="fa fa-graduation-cap" aria-hidden="true"></i>台灣科技大學資訊工程系</h3>
-		<p class="arrows">▼&nbsp;▼&nbsp;▼</p>
-		<h2>滾動滑鼠滾輪</h2>
-	</div>
-
-	<div id="properties" data-500="transform:scale(0) rotate(0deg);top:5%" data-1000="transform:scale(1) rotate(1440deg);opacity:1;" data-1600="" data-1700="transform:scale(5) rotate(3240deg);opacity:0;">
-		<div class="small_intro" style="font-size: 20px">
-			<h2 style="color:#732626;">來自山城苗栗的小伙子</h2>
-			<h3 style="color:#ff3300;">慢跑是我的興趣，積極是我的座右銘</h3>
-			<h3 style="color:#ff3300;">富有團隊合作的精神，樂於嘗試新事物，不斷學習新知識</h3>
-		</div>
-		<div class="dream" style="font-size: 20px">
-			<h2 style="color:#732626;">對網路業充滿樂情</h2>
-			<h3 style="color:#ff3300;">喜歡用程式去完成一些生活中有趣的應用</h3>
-			<h3 style="color:#ff3300;">夢想成為一名被依賴的工程師，讓這個世界缺我不可</h3>
-			<h3 style="color:#ff3300;">每日追蹤產業趨勢，並組成跨領域團隊互相交流，期望能產生不一樣的價值，打出我們的一片藍海</h3>
-		</div>
-	</div>
-
-	<div id="transform" data-1700="top:100%;" data-2200="top:0%;" data-3000="display:block;" data-3700="top:-100%;display:none;">
-		<div class="exp">
-			<i class="fa fa-suitcase" aria-hidden="true" style="font-size: 50px;color:#fff"></i>
-			<h3 style="color:#FFFCEC;">五倍紅寶石  實習工程師   2016 / 4 - 2016 / 7</h3>
-			<h3 style="color:#FFFCEC;">PlayPlus  實習工程師   2015 / 10 - 2016 / 3</h3>
-			<h3 style="color:#FFFCEC;">臺科竹友會  副會長   2014 / 9 - 2015 / 6</h3>
-			<hr>	
-			<i class="fa fa-trophy" aria-hidden="true" style="font-size: 50px;color:#fff"></i>
-			<h3 style="color:#FFFCEC;">2016全國技專校院黑客松Hackathon<p style="font-size:25px"><i class="fa fa-trophy" aria-hidden="true"></i>評審團大獎  <i class="fa fa-trophy" aria-hidden="true"></i>最佳人氣獎</p></h3>
-			<h3 style="color:#FFFCEC;">騰訊開放平台創業沙拉x台北<p style="font-size:25px"><i class="fa fa-trophy" aria-hidden="true"></i>第一名   <i class="fa fa-trophy" aria-hidden="true"></i>最佳人氣獎</p></h3>
-		</div>
-	</div>
-
-	<div id="easing_wrapper" data-0="display:none;" data-3900="display:block;" data-4900="background:rgba(0, 0, 0, 0);color[swing]:rgb(0,0,0);" data-5900="background:rgba(0,0,0,1);color:rgb(255,255,255);" data-10000="top:0%;" data-12000="top:-100%;">
-		<div id="easing" data-3900="left:100%" data-4600="left:20%;">
-			<h2 style="color:#2ecc40;margin-left: 30%;margin-bottom: 10%;font-size: 60px"><i class="fa fa-tree" aria-hidden="true"></i> 技能樹</h2>
-			<h3 style="color:#fff;font-size: 30px"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> 善於網頁前後端設計</h3>
-			<h3 style="color:#fff;font-size: 30px"><i class="fa fa-html5" aria-hidden="true"></i> HTML5, CSS3, Javascript, Ajax, jQuery, Ruby on Rails</h3>
-			<h3 style="color:#fff;font-size: 30px"><i class="fa fa-terminal" aria-hidden="true"></i> Ruby, SQL </h3>
-			<h3 style="color:#fff;font-size: 30px"><i class="fa fa-desktop" aria-hidden="true"></i> AWS, Git, RWD, API串接</h3>
-			<h3 style="color:#fff;font-size: 30px"><i class="fa fa-book" aria-hidden="true"></i> 具備自學能力</h3>
-			
-
-		</div>
-
-		<div class="drop" data-6500="left:5%;bottom:100%;" data-9500="bottom:0%;">HTML</div>
-		<div class="drop" data-6500="left:15%;bottom[quadratic]:100%;" data-9500="bottom:0%;">CSS</div>
-		<div class="drop" data-6500="left:25%;bottom[cubic]:100%;" data-9500="bottom:0%;">JS</div>
-		<div class="drop" data-6500="left:35%;bottom[swing]:100%;" data-9500="bottom:0%;">Ruby</div>
-		<div class="drop" data-6500="left:45%;bottom[WTF]:100%;" data-9500="bottom:0%;">Git</div>
-		<div class="drop" data-6500="left:55%;bottom[inverted]:100%;" data-9500="bottom:0%;">AWS</div>
-		<div class="drop" data-6500="left:65%;bottom[bounce]:100%;" data-9500="bottom:0%;">金流、第三方服務串接</div>
-	</div>
-
-	<div id="download" data-10000="top[cubic]:100%;border-radius[cubic]:0em;" data-12000="top:40%;border-radius:2em;">
-		<div class="social_icon">
-			<a target="_blank" href="https://www.facebook.com/profile.php?id=100002349957840"><img src="http://icons.iconarchive.com/icons/sicons/basic-round-social/512/facebook-icon.png" style="width:120px;height:120px;"></a>
-			<a target="_blank" href="https://github.com/elvis460"><img src="https://www.girldevelopit.com/assets/github-fork-476365c39e16ea2d6172e4c1e8cf6e7c.png" style="width:120px;height:120px"></a>
-			<a href="mailto:elvis4600@gmail.com"><img src="https://cdn4.iconfinder.com/data/icons/free-colorful-icons/360/gmail.png" style="width:120px;height:120px"></a>
-			<a target="_blank" href="http://villager.logdown.com/"><img src="http://cdn2.rare-earth-magnets.com/images/content/blog-icon.png" style="width:120px;height:120px"></a>
-		</div>
-	</div>
-
-	<div id="scrollbar" data-0="top:0%;margin-top:2px;" data-end="top:100%;margin-top:-52px;"></div>
-
-	<script type="text/javascript" src="public/dist/skrollr.min.js"></script>
-
-	<!--[if lt IE 9]>
-	<script type="text/javascript" src="../skrollr-ie/dist/skrollr.ie.min.js"></script>
-	<![endif]-->
-
-	<script type="text/javascript">
-	var s = skrollr.init({
-		edgeStrategy: 'set',
-		easing: {
-			WTF: Math.random,
-			inverted: function(p) {
-				return 1-p;
-			}
-		}
-	});
-	</script>
+  <div class="shadow"></div>
+  <div class="basic_info">
+    <div class="head_photo col-md-12 col-xs-12">
+      <p class="photo"><img src="public/examples/images/villager.jpg" class="img-circle img_size"></p>
+    </div>
+    <div class="infos col-md-12 col-xs-12">
+      <p class="name">徐銘村</p>
+      <p class="nick_name">村民 | Villager</p>
+      <p class="education"><i class="fa fa-graduation-cap" aria-hidden="true"></i>台灣科技大學資訊工程系</p>
+      <p class="education"><i class="fa fa-graduation-cap" aria-hidden="true"></i>廣州中山大學交換生</p>
+    </div>
+  </div>
+  <div class="experiences">
+    <div class="infos col-md-12 col-xs-12">
+      <p class="exp_icon"><i class="fa fa-suitcase" aria-hidden="true"></i></p>
+      <div class="exp_drop" data-drop-no="drop_1">
+        <p class="exp_info" >五倍紅寶石  實習工程師  <br class="br_line"> 2016 / 4 - 2016 / 7   
+        <i class="fa fa-chevron-circle-down drop_icon" style="float:right;"></i>
+        </p>
+        <p class="drop_info" id="drop_1">在台灣Ruby及Rails最強的公司實習期間，與多位前輩合作開發歐美地區客戶案子，分析用戶需求提出優化使用者體驗之建議，並首次經歷與客戶同時開發後端（對方使用Go)，在團隊協同開發上有很大的進步
+        </p>
+      </div>
+      <div class="exp_drop" data-drop-no="drop_2">
+        <p class="exp_info">PlayPlus  實習工程師   <br class="br_line"> 2015 / 10 - 2016 / 3
+        <i class="fa fa-chevron-circle-down drop_icon" style="float:right;"></i>
+        </p>
+        <p class="drop_info" id="drop_2">分析客戶產品之使用者，並從無到有為該產品量身定制設計網站，提供客戶增加使用者互動之設計建議；實習期間共同參與多項案子開發，有與最多五人同時開發之經驗、單人完成部分案子、金流及其他第三方服務串接
+        </p>
+      </div>
+      <div class="exp_drop" data-drop-no="drop_3"> 
+        <p class="exp_info">臺科竹友會  副會長   <br class="br_line"> 2014 / 9 - 2015 / 6
+        <i class="fa fa-chevron-circle-down drop_icon" style="float:right;"></i>
+        </p>
+        <p class="drop_info" id="drop_3">管理人數900人之學生社團，與10多位社團幹部共事一年，團隊溝通能力佳，期間籌辦不下十場大型校園活動，包含盈利、推廣等性質活動，曾達到日收入一萬及一期招新200人等成績
+        </p>
+      </div>
+    </div>
+    <div class="infos col-md-12 col-xs-12">
+      <p class="exp_icon"><i class="fa fa-trophy"></i></p>
+      <div class="exp_drop" data-drop-no="drop_4">
+        <p class="prize_info" >2016全國技專校院黑客松Hackathon<br><span class="prizes"><i class="fa fa-trophy" aria-hidden="true"></i>評審團大獎  <i class="fa fa-trophy" aria-hidden="true"></i>最佳人氣獎</span>
+        <i class="fa fa-chevron-circle-down drop_icon" style="float:right;"></i></p>
+        <p class="drop_info" id="drop_4">2016騰訊開放平台創業沙拉台北場冠軍及人氣獎得主作品，與一名資工系及兩名管理學院同學於52小時黑客松時發想並打造出來的作品，以增添跑步樂趣為題材獲該場比賽評審及參賽者青睞；負責這個作品題材發想、企劃書撰寫及後端開發的部分
+        </p>
+      </div>
+      <div class="exp_drop" data-drop-no="drop_5">
+        <p class="exp_info">騰訊開放平台創業沙拉x台北<br><span class="prizes"><i class="fa fa-trophy" aria-hidden="true"></i>第一名  <i class="fa fa-trophy" aria-hidden="true"></i>最佳人氣獎</span>
+        <i class="fa fa-chevron-circle-down drop_icon" style="float:right;"></i>
+        </p>
+        <p class="drop_info" id="drop_5">2016雲科黑客松冠軍及人氣獎得主作品，作品以群眾互動為發想並加入當地農業文化元素，以互動「光禾」獲該場比賽評審及參賽者青睞；主要負責這個作品題材發、系統後端及網頁前端開發的部分
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="skill_tree" id="skills">
+    <div class="infos col-md-12 col-xs-12">
+      <p class="skill_icon"><i class="fa fa-tree" aria-hidden="true"></i> 技能樹</p>
+      <div class="box">        
+        <div class="lineF">            
+          <div class="boxF">
+            <div class="boxS">
+              <div class="boxT" style="background-image: url('stylesheets/images/html.jpg');  background-repeat: no-repeat;
+                background-size: 100% 100%;">
+                <div class="overlay">  
+                  <a href="#skills">HTML</a>
+                </div>                    
+              </div>                
+            </div>            
+          </div>            
+          <div class="boxF">
+            <div class="boxS">
+              <div class="boxT" style="background-image: url('stylesheets/images/css.jpg');  background-repeat: no-repeat;
+                background-size: 100% 100%;">
+                <div class="overlay three_word">
+                  <a href="#skills">CSS</a>
+                </div>                    
+              </div>                
+            </div>            
+          </div>            
+          <div class="boxF">
+            <div class="boxS">
+              <div class="boxT" style="background-image: url('stylesheets/images/js.png');  background-repeat: no-repeat;
+                background-size: 100% 100%;"><div class="overlay js">
+                  <a href="#skills">Javascript</a>
+                </div>                    
+              </div>                
+            </div>            
+          </div>
+          <div class="boxF">
+            <div class="boxS">
+              <div class="boxT" style="background-image: url('stylesheets/images/jquery.png');  background-repeat: no-repeat;
+                background-size: 100% 100%;">
+                <div class="overlay">
+                  <a href="#skills">jQuery</a>
+                </div>                    
+              </div>                
+            </div>            
+          </div>        
+        </div>         
+        <div class="lineS">            
+          <div class="boxF">
+            <div class="boxS">
+              <div class="boxT" style="background-image: url('stylesheets/images/rails.png');  background-repeat: no-repeat;
+                background-size: 100% 100%;">
+                <div class="overlay">
+                  <a href="#skills">Rails</a>    
+                </div>                    
+              </div>                
+            </div>            
+          </div>            
+          <div class="boxF">
+            <div class="boxS">
+              <div class="boxT" style="background-image: url('stylesheets/images/ruby.png');  background-repeat: no-repeat;
+                background-size: 95% 95%;"><div class="overlay">
+                  <a href="#skills">Ruby</a>  
+                </div>                    
+              </div>                
+            </div>            
+          </div> 
+          <div class="boxF">
+            <div class="boxS">
+              <div class="boxT" style="background-image: url('stylesheets/images/sql.png');  background-repeat: no-repeat;
+                background-size: 100% 100%;">
+                <div class="overlay three_word">
+                  <a href="#skills">SQL</a>  
+                </div>                    
+              </div>                
+            </div>            
+          </div>        
+        </div> 
+        <div class="lineQ">            
+          <div class="boxF">
+            <div class="boxS">
+              <div class="boxT" style="background-image: url('stylesheets/images/git.png');  background-repeat: no-repeat;
+                background-size: 100% 100%;">
+                <div class="overlay git">  
+                  <a href="#skills">Git</a>
+                </div>                    
+              </div>                
+            </div>            
+          </div>            
+          <div class="boxF">
+            <div class="boxS">
+              <div class="boxT" style="background-image: url('stylesheets/images/aws.png');  background-repeat: no-repeat;
+                background-size: 100% 100%;">
+                <div class="overlay last_line">
+                  <a href="#skills">AWS</a>
+                </div>                    
+              </div>                
+            </div>            
+          </div>            
+          <div class="boxF">
+            <div class="boxS">
+              <div class="boxT" style="background-image: url('stylesheets/images/rwd.jpg');  background-repeat: no-repeat;
+                background-size: 100% 100%;">
+                <div class="overlay last_line">
+                  <a href="#skills">RWD</a>
+                </div>                    
+              </div>                
+            </div>            
+          </div>
+          <div class="boxF">
+            <div class="boxS">
+              <div class="boxT" style="background-image: url('stylesheets/images/api.jpg');  background-repeat: no-repeat;
+                background-size: 100% 100%;">
+                <div class="overlay three_word">
+                  <a href="#skills">API</a>
+                </div>                    
+              </div>                
+            </div>            
+          </div>        
+        </div>    
+      </div>
+    </div>
+  </div>
+  <div class="experiences">
+    <div class="infos col-md-12 col-xs-12">
+      <p class="collect_icon"><i class="fa fa-flag" aria-hidden="true"></i>  作品集
+      </p>
+      <div class="exp_drop" data-drop-no="drop_6">
+        <p class="exp_info">蓋米guide
+        <i class="fa fa-chevron-circle-down drop_icon" style="float:right;"></i>
+        </p>
+        <p class="drop_info" id="drop_6">實習期間參與共同開發之案子，採用rails開發，負責權限區分、站內搜尋、付款、及商品上架功能等功能開發<br> <a href="http://www.guidemee.com/zh-TW" target="_blank" style="text-align: center;display: block;">Link is here</a>
+        </p>
+      </div>
+      <div class="exp_drop" data-drop-no="drop_7">
+        <p class="exp_info">聚點堂
+        <i class="fa fa-chevron-circle-down drop_icon" style="float:right;"></i>
+        </p>
+        <p class="drop_info" id="drop_7">實習期間參與共同開發之案子，負責金流串接部份<br> <a href="http://www.ciideas.com/" target="_blank" style="text-align: center;display: block;">Link is here</a>
+        </p>
+      </div>
+      <div class="exp_drop" data-drop-no="drop_8">
+        <p class="exp_info">植物工廠
+        <i class="fa fa-chevron-circle-down drop_icon" style="float:right;"></i>
+        </p>
+        <p class="drop_info" id="drop_8">實習期間獨立開發之案子，除前台切版還包含後台管理系統，看得到的都能自己修改，採用rails開發<br> <a href="http://www.fairhoster.com.tw/" target="_blank" style="text-align: center;display: block;">Link is here</a>
+        </p>
+      </div>
+      <div class="exp_drop" data-drop-no="drop_9">
+        <p class="exp_info">台科竹塹週
+        <i class="fa fa-chevron-circle-down drop_icon" style="float:right;"></i>
+        </p>
+        <p class="drop_info" id="drop_9">社團於每年校慶皆有家鄉美食販售的活動，為求創新而建立的預購網站，也是我第一個親手建立的網站，採用rails開發，介面陽春但含有購物車功能<br> <a href="http://bamboo.villager.website/" target="_blank" style="text-align: center;display: block;">Link is here</a>
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="social">
+    <div class="infos col-md-12 col-xs-12">
+    <div class="social_icon">
+      <a target="_blank" href="https://www.facebook.com/profile.php?id=100002349957840"><img src="stylesheets/images/facebook.png" class="social_icon_size"></a>
+      <a target="_blank" href="https://github.com/elvis460"><img src="stylesheets/images/github.png" class="social_icon_size git_icon"></a>
+      <a href="mailto:elvis4600@gmail.com"><img src="stylesheets/images/gmail.png" class="social_icon_size"></a>
+      <a target="_blank" href="http://villager.logdown.com/"><img src="stylesheets/images/blog.png" class="social_icon_size"></a>
+    </div>
+    </div>
+  </div>
 </body>
-
 </html>

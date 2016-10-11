@@ -1,0 +1,138 @@
+.clear {            
+    clear: both;        
+  }               
+  .box {  
+    position: relative;            
+    width: 850px;            
+		margin:auto;  
+    margin-top: 3%;
+  }        
+  .lineF, .lineS , .lineQ  {            
+    position: absolute;            
+    visibility: hidden;
+  }        
+  .lineS {            
+    top: 182px;            
+    left: 12.3%;        
+  }  
+  .lineQ{
+  	top: 364px;            
+  }    
+  .boxF, .boxS, .boxT, .overlay  {            
+    width: 200px;            
+    height: 230px;            
+    overflow: hidden;        
+  }        
+  .boxF, .boxS   {            
+    visibility: hidden;        
+  }        
+  .boxF {            
+    transform: rotate(120deg);            
+    float: left;            
+    margin-left: 10px;            
+    -ms-transform: rotate(120deg);           
+    -moz-transform: rotate(120deg);            
+    -webkit-transform: rotate(120deg);        
+  }        
+  .boxS  {            
+    transform: rotate(-60deg);            
+    -ms-transform: rotate(-60deg);            
+    -moz-transform: rotate(-60deg);            
+    -webkit-transform: rotate(-60deg);        
+  }        
+  .boxT  {            
+    transform: rotate(-60deg);            
+    background: no-repeat 50% center;            
+    background-size: 125% auto;            
+    -ms-transform: rotate(-60deg);            
+    -moz-transform: rotate(-60deg);            
+    -webkit-transform: rotate(-60deg);            
+    visibility: visible;        
+  }        
+  .overlay  {            
+    transition: all 250ms ease-in-out 0s;            
+    display: none;            
+    position: relative;        
+  }        
+  .overlay:hover  {            
+    background-color: rgba(0,0,0,0.7);       
+  }        
+  .boxT:hover .overlay   {            
+    display: block;        
+  }        
+  .overlay a   {            
+    display: inline-block;            
+    position: absolute;
+    left: 40%;            
+    top: 50%;                       
+    margin: -16px 0 0 -16px;            
+    /*border-radius: 3px;            
+    background-color: #d3b850;   */         
+    text-align: center;            
+    line-height: 32px;            
+    width: 32px;            
+    height: 32px;            
+    text-decoration: none;            
+    font-size: 22px;            
+    font-weight: bolder;  
+    color: #fff;      
+  }
+  .three_word a{
+    left: 45%;            
+    top: 50%; 
+  } 
+  .js a{
+    left: 30%;            
+    top: 50%; 
+  }  
+  .git a{
+    left: 52%;            
+    top: 50%;
+  }
+  .last_line a{
+    left: 43%;            
+    top: 50%; 
+  }
+@media screen and (max-width: 768px) {
+	.box {  
+	 	position: relative;            
+	  width: 85%;            
+		margin:auto; 
+    margin-top: 15%; 
+	} 
+	.boxF, .boxS, .boxT, .overlay  {            
+	  width: 60px;            
+	  height: 70px;            
+	  overflow: hidden;        
+	} 
+	.lineS {            
+    top: 60px;            
+    left: 40px;        
+  }  
+  .lineQ{
+  	top: 120px;            
+  }  
+ }
+
+ @media screen and (max-width: 330px) {
+  .box {  
+    position: relative;            
+    width: 85%;            
+    margin:auto;
+    margin-top: 15%;  
+  } 
+  .boxF, .boxS, .boxT, .overlay  {            
+    width: 50px;            
+    height: 60px;            
+    overflow: hidden;        
+  } 
+  .lineS {            
+    top: 50px;            
+    left: 30px;        
+  }  
+  .lineQ{
+    top: 100px;            
+  }  
+ } 
+
+ 
