@@ -13,7 +13,27 @@ body{
 	background-repeat: no-repeat;
 	background-size: 100% 100%;*/
 }
-
+.lang-select{
+	width: 100%;
+	margin-top: 36vh;
+}
+.lang-btn{
+	width: 70%;
+	padding: 3%;
+	border-radius: 0.5em;
+	margin: auto;
+	margin-top: 2%;
+	text-align: center;
+	font-size: 28px;
+	background-color: rgb(232, 77, 91);
+	color: rgb(255, 254, 240);
+	transition: 0.8s;
+	position: relative;
+}
+.lang-btn:hover{
+	top:6px;
+	box-shadow: 0px 1px 5px  rgba(0,0,0,.3);
+}
 .back_pic{
 	background-image: url('images/shadow.jpg');
 	background-repeat: no-repeat;
@@ -51,7 +71,6 @@ body{
 	margin-top: 3%;
 }
 .name{
-	margin-top: 2%;
 	font-size: 52px;
 	text-align: center;
 	color: #fff;
@@ -96,7 +115,7 @@ body{
 	display: none;
 	border-radius: 0 0 0.3em 0.3em;
 	width: 68%;
-	padding: 1%;
+	padding:26px 56px;
 	margin: auto;
 	word-wrap: break-word;
 	background-color: #FFFCEC;
@@ -151,4 +170,15 @@ body{
 }
 .social_icon a:hover{
 	top:-20px;
+}
+.en_title_word{
+	font-size: 20px;
+}
+.en_drop_info{
+	padding:26px 56px
+}
+.en_prize_word{
+	font-size: 16px;
+	word-wrap: break-word;
+
 }
