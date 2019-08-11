@@ -1,23 +1,22 @@
 @import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
 
 
-html, body{
+html, body {
 	line-height: 1;
 	min-height:100%;
 	font-family: 'Noto Sans TC', sans-serif;
-
 }
 
-body{
+body {
 	/*background-image: url('images/shadow.jpg');
 	background-repeat: no-repeat;
 	background-size: 100% 100%;*/
 }
-.lang-select{
+.lang-select {
 	width: 100%;
 	margin-top: 36vh;
 }
-.lang-btn{
+.lang-btn {
 	width: 70%;
 	padding: 3%;
 	border-radius: 0.5em;
@@ -30,11 +29,11 @@ body{
 	transition: 0.8s;
 	position: relative;
 }
-.lang-btn:hover{
+.lang-btn:hover {
 	top:6px;
-	box-shadow: 0px 1px 5px  rgba(0,0,0,.3);
+	box-shadow: 0px 1px 5px rgba(0,0,0,.3);
 }
-.back_pic{
+.back_pic {
 	background-image: url('images/shadow.jpg');
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
@@ -45,7 +44,7 @@ body{
 	width:100%;
 	height:100%;
 }
-.shadow{
+.shadow {
 	background-color: rgba(0, 0, 0, 0.6);
 	position: fixed;
 	z-index:-4;
@@ -54,50 +53,50 @@ body{
 	width:100%;
 	height:100%;
 }
-.basic_info{
+.basic_info {
 	height: 100vh;
 }
-.head_photo{
+.head_photo {
 	margin-top: 5%;
 }
-.photo{
+.photo {
 	text-align: center;
 }
-.img_size{
+.img_size {
 	width: 25%;
 	height: 25%;
 }
-.infos{
+.infos {
 	margin-top: 3%;
 }
-.name{
+.name {
 	font-size: 52px;
 	text-align: center;
 	color: #fff;
 }
-.nick_name{
+.nick_name {
 	font-size: 16px;
 	text-align: center;
 	color: #fff;
 }
-.education{
+.education {
 	margin-top: 2%;
 	font-size: 22px;
 	text-align: center;
 	color: #fff;
 }
 
-.experiences{
+.experiences {
 	height: 100vh;
 	margin-top: 30%;
 }
-.exp_icon{
+.exp_icon {
 	margin-top: 2%;
 	color: rgb(255, 254, 240);
 	text-align: center;
 	font-size: 50px;
 }
-.exp_info{
+.exp_info {
 	width: 70%;
 	padding: 1%;
 	border-radius: 0.5em;
@@ -108,10 +107,10 @@ body{
 	background-color: rgb(232, 77, 91);
 	color: rgb(255, 254, 240);
 }
-.br_line{
+.br_line {
 	display: none;
 }
-.drop_info{
+.drop_info {
 	display: none;
 	border-radius: 0 0 0.3em 0.3em;
 	width: 68%;
@@ -120,7 +119,7 @@ body{
 	word-wrap: break-word;
 	background-color: #FFFCEC;
 }
-.prize_info{
+.prize_info {
 	width: 70%;
 	padding: 1%;
 	border-radius: 0.5em;
@@ -131,53 +130,54 @@ body{
 	background-color: rgb(232, 77, 91);
 	color: rgb(255, 254, 240);
 }
-.prizes{
+.prizes {
 	font-size: 19px;
 }
-.skill_tree{
+.skill_tree {
 	height: 100vh;
 	margin-top: 5%;
 }
-.skill_icon{
+.skill_icon {
 	text-align: center;
 	color:white;
 	font-size: 36px;
 }
-.collections{
+.collections {
 	height: 100vh;
 }
-.collect_icon{
+.collect_icon {
 	text-align: center;
 	font-size: 36px;
 	color: #fff;
 }
-.social{
+.social {
+	margin-top: 20%;
 	height: 100vh;
 }
-.social_icon{
+.social_icon {
 	margin-top: 20%;
 	text-align: center;
 }
-.social_icon_size{
+.social_icon_size {
 	width:180px;
 	height:180px
 }
-.social_icon a{
+.social_icon a {
 	margin: 4%;
 	transition: 0.4;
 	position: relative;
-	top:0;
+	top: 0;
 }
-.social_icon a:hover{
-	top:-20px;
+.social_icon a:hover {
+	top: -20px;
 }
-.en_title_word{
+.en_title_word {
 	font-size: 20px;
 }
-.en_drop_info{
+.en_drop_info {
 	padding:26px 56px
 }
-.en_prize_word{
+.en_prize_word {
 	font-size: 16px;
 	word-wrap: break-word;
 
