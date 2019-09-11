@@ -180,5 +180,8 @@ body {
 .en_prize_word {
 	font-size: 16px;
 	word-wrap: break-word;
+}
 
+.highlight-word {
+	font-weight: bold;
 }
