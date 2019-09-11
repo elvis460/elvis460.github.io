@@ -10,7 +10,7 @@
 
 	.name{
 		margin-top: 3%;
-		font-size: 36px;
+		font-size: 30px;
 		text-align: center;
 		color: #fff;
 	}
@@ -21,7 +21,7 @@
 	}
 	.education{
 		margin-top: 2%;
-		font-size: 16px;
+		font-size: 14px;
 		text-align: center;
 		color: #fff;
 	}
@@ -34,12 +34,13 @@
 	.exp_info{
 		width: 90%;
 		word-wrap: break-word;
-		padding: 2%;
+		padding: 4%;
 		border-radius: 0.5em;
 		margin: auto;
-		margin-top: 2%;
+		margin-top: 5%;
 		text-align: center;
-		font-size: 18px;
+		line-height: 1.3em;
+		font-size: 16px;
 		background-color: rgb(232, 77, 91);
 		color: rgb(255, 254, 240);
 	}
@@ -47,42 +48,66 @@
 		display: block;
 	}
 	.drop_icon{
-		font-size: 6px;
+		display: none;
 	}
 	.drop_info{
 		display: none;
 		border-radius: 0 0 0.3em 0.3em;
-		width: 80%;
-		padding: 3%;
+		width: 85%;
+		padding: 5.5%;
 		margin: auto;
+		font-size: 12px;
 		word-wrap: break-word;
 		background-color: #FFFCEC;
 	}
 	.prize_info{
 		width: 90%;
 		word-wrap: break-word;
-		padding: 2%;
+		padding: 4%;
 		border-radius: 0.5em;
 		margin: auto;
 		margin-top: 2%;
 		text-align: center;
-		font-size: 18px;
+		line-height: 1.3em;
+		font-size: 14px;
 		background-color: rgb(232, 77, 91);
 		color: rgb(255, 254, 240);
 	}
 	.prizes{
 		font-size: 14px;
 	}
+	.en_prize_word {
+		font-size: 12px;
+		word-wrap: break-word;
+		line-height: 1.2em;
+	}
+	.skill_tree {
+		height: 75vh;
+		margin-top: 30%;
+		margin-bottom: 0%;
+	}
+	.skill_icon {
+		text-align: center;
+		color:white;
+		font-size: 24px;
+	}
 	.social_icon{
-		margin-top: 20%;
+		display: block;
 		text-align: center;
 	}
 	.git_icon{
 		margin-top: 5%;
 	}
+	.social {
+		margin-top: -30%;
+		height: 100vh;
+	}
 	.social_icon_size{
-		width:60%;
-		height:60%;
+		width: 40%;
+    height: 40%;
+    display: block;
+    margin: auto;
+    margin-top: 5%;
 	}
 	.social_icon a{
 		margin: 4%;

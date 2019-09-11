@@ -142,14 +142,6 @@ body {
 	color:white;
 	font-size: 36px;
 }
-.collections {
-	height: 100vh;
-}
-.collect_icon {
-	text-align: center;
-	font-size: 36px;
-	color: #fff;
-}
 .social {
 	margin-top: 20%;
 	height: 100vh;
