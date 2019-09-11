@@ -1,121 +1,126 @@
 @media screen and (max-width: 768px) {
-	.basic_info{
-		margin-top: 25%;
-		height: 100vh;
-	}
-	.img_size{
-		width: 45%;
-		height: 45%;
-	}
+  .basic_info {
+    margin-top: 25%;
+    height: 100vh;
+  }
+  .img_size {
+    width: 45%;
+    height: 45%;
+  }
 
-	.name{
-		margin-top: 3%;
-		font-size: 30px;
-		text-align: center;
-		color: #fff;
-	}
-	.nick_name{
-		font-size: 10px;
-		text-align: center;
-		color: #fff;
-	}
-	.education{
-		margin-top: 2%;
-		font-size: 14px;
-		text-align: center;
-		color: #fff;
-	}
-	.experiences{
-		margin-top: 20%;
-	}
-	.exp_icon{
-		font-size: 35px;
-	}
-	.exp_info{
-		width: 90%;
-		word-wrap: break-word;
-		padding: 4%;
-		border-radius: 0.5em;
-		margin: auto;
-		margin-top: 5%;
-		text-align: center;
-		line-height: 1.3em;
-		font-size: 16px;
-		background-color: rgb(232, 77, 91);
-		color: rgb(255, 254, 240);
-	}
-	.br_line{
-		display: block;
-	}
-	.drop_icon{
-		display: none;
-	}
-	.drop_info{
-		display: none;
-		border-radius: 0 0 0.3em 0.3em;
-		width: 85%;
-		padding: 5.5%;
-		margin: auto;
-		font-size: 12px;
-		word-wrap: break-word;
-		background-color: #FFFCEC;
-	}
-	.prize_info{
-		width: 90%;
-		word-wrap: break-word;
-		padding: 4%;
-		border-radius: 0.5em;
-		margin: auto;
-		margin-top: 2%;
-		text-align: center;
-		line-height: 1.3em;
-		font-size: 14px;
-		background-color: rgb(232, 77, 91);
-		color: rgb(255, 254, 240);
-	}
-	.prizes{
-		font-size: 14px;
-	}
-	.en_prize_word {
-		font-size: 12px;
-		word-wrap: break-word;
-		line-height: 1.2em;
-	}
-	.skill_tree {
-		height: 75vh;
-		margin-top: 30%;
-		margin-bottom: 0%;
-	}
-	.skill_icon {
-		text-align: center;
-		color:white;
-		font-size: 24px;
-	}
-	.social_icon{
-		display: block;
-		text-align: center;
-	}
-	.git_icon{
-		margin-top: 5%;
-	}
-	.social {
-		margin-top: -30%;
-		height: 100vh;
-	}
-	.social_icon_size{
-		width: 40%;
+  .name {
+    margin-top: 3%;
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+  }
+  .nick_name {
+    font-size: 10px;
+    text-align: center;
+    color: #fff;
+  }
+  .education {
+    margin-top: 2%;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+  }
+  .experiences {
+    margin-top: 20%;
+  }
+  .exp_icon {
+    font-size: 35px;
+  }
+  .exp_info {
+    width: 90%;
+    word-wrap: break-word;
+    padding: 4%;
+    border-radius: 0.5em;
+    margin: auto;
+    margin-top: 5%;
+    text-align: center;
+    line-height: 1.3em;
+    font-size: 16px;
+    background-color: rgb(232, 77, 91);
+    color: rgb(255, 254, 240);
+  }
+  .br_line {
+    display: block;
+  }
+  .drop_icon {
+    display: none;
+  }
+  .drop_info {
+    display: none;
+    border-radius: 0 0 0.3em 0.3em;
+    width: 85%;
+    padding: 5.5%;
+    margin: auto;
+    font-size: 12px;
+    word-wrap: break-word;
+    background-color: #FFFCEC;
+  }
+  .prize_info {
+    width: 90%;
+    word-wrap: break-word;
+    padding: 4%;
+    border-radius: 0.5em;
+    margin: auto;
+    margin-top: 2%;
+    text-align: center;
+    line-height: 1.3em;
+    font-size: 14px;
+    background-color: rgb(232, 77, 91);
+    color: rgb(255, 254, 240);
+  }
+  .prizes {
+    font-size: 14px;
+  }
+  .en_prize_word {
+    font-size: 12px;
+    word-wrap: break-word;
+    line-height: 1.2em;
+  }
+  .skill_tree {
+    height: 75vh;
+    margin-top: 30%;
+    margin-bottom: 0%;
+  }
+  .skill_icon {
+    text-align: center;
+    color: white;
+    font-size: 24px;
+  }
+  .social_icon {
+    display: block;
+    text-align: center;
+  }
+  .git_icon {
+    margin-top: 5%;
+  }
+  .social {
+    margin-top: -30%;
+    height: 100vh;
+  }
+  .social_icon_size {
+    width: 40%;
     height: 40%;
     display: block;
     margin: auto;
     margin-top: 5%;
-	}
-	.social_icon a{
-		margin: 4%;
-		transition: 0.4;
-		position: relative;
-		top:0;
-	}
-	.social_icon a:hover{
-		top:-20px;
-	}
+  }
+  .social_icon a {
+    margin: 4%;
+    transition: 0.4;
+    position: relative;
+    top: 0;
+  }
+  .social_icon a:hover {
+    top: -20px;
+  }
+
+  .block-add-height {
+    margin-top: 50%;
+    height: 150vh;
+  }
 }
